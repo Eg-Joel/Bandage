@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  overflow-x: hidden;
+  
+}
+
+.carousel-container {
+  background-color: #01add5; 
+  
+}
+.carousel-container2 {
+  background-color: #23856d; 
+  
+}
+
+.carousel-content {
+  position: absolute;
+  top: 50%;
+  left: 20%; 
+  transform: translateY(-50%);
+  color: #ffffff;
+  z-index: 1; 
+}
+
+.carousel-item {
+  position: relative;
+}
+
+.carousel-inner img {
+  max-height: 80vh;
+  object-fit: contain;
+  width: auto;
+  margin-left: 20%; 
+}
+.green-button {
+  background-color: #2dc071;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.carousel2-text {
+  display: flex;
+ align-items: center;
+ gap: 5rem;
+}
